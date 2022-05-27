@@ -6,10 +6,11 @@ Some codes here are copied from or modified based on [Kevin Miller's Model-Chang
 Our experiment are based on the [RiverPIXELS dataset](https://data.ess-dive.lbl.gov/view/doi:10.15485/1865732 "RiverPIXELS") created by Jon Schwenk in Los Alamos National Laboratory (LANL). 
 
 ## Dataset Source
-In order to reimplement our algorithm, you should process the raw image dataset into some specific format. The processed data can be downloaded from [my google drive (SurfwaterGAP)](https://drive.google.com/drive/folders/17wxkCVneJrozsX-q-9XmyhF09LCfvaNO?usp=sharing "SurfwaterGAP"). 
+In order to reimplement our algorithm, you should process the raw image dataset into some specific format. The processed data can be downloaded from [my google drive (SurfwaterGAP)](https://drive.google.com/drive/folders/17wxkCVneJrozsX-q-9XmyhF09LCfvaNO?usp=sharing "SurfwaterGAP"). You can check the following table to see what's inside each folder in this shared drive. **Notice:** You should download all files in the `data` folder if you want to run our codes directly.
 | Folder        | Inside        |  
 | ------------- |:-------------:| 
-| col 3 is      | right-aligned | 
+| Labeled_patches 3-6-22  | Original image dataset (RiverPIXELS)| 
+| data          | processed data with required format| 
 | col 2 is      | centered      |  
 | zebra stripes | are neat      | 
 

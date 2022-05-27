@@ -13,4 +13,4 @@ In order to reimplement our algorithm, you should process the raw image dataset 
 | col 2 is      | centered      |  
 | zebra stripes | are neat      | 
 
-If you want to use your own dataset, you should use 'data_process.py' to process your raw data into the required format.
+If you want to use your own dataset, you should use `data_process.py` to process your raw data into the required format.

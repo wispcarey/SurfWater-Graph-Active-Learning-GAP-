@@ -10,8 +10,8 @@ In order to reimplement our algorithm, you should process the raw image dataset 
 | Folder        | Inside        |  
 | ------------- |:-------------:| 
 | Labeled_patches 3-6-22  | Original image dataset (RiverPIXELS)| 
-| data          | processed data with required format| 
-| col 2 is      | centered      |  
-| zebra stripes | are neat      | 
+| data          | Processed data with required format| 
+| DWM_original_output     | Output labeled images from the original DeepWaterMap  |  
+| output_figures | Output figures of different       | 
 
 If you want to use your own dataset, you should use `data_process.py` to process your raw data into the required format.

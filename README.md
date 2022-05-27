@@ -4,3 +4,6 @@ This is a novel graph active learning method to detect surface water and sedimen
 Some codes here are copied from or modified based on [Kevin Miller's Model-Change Active Learning repository](https://github.com/millerk22/model-change-paper "Model Change Paper") and [Deep Water Map](https://github.com/isikdogan/deepwatermap "Deep Water Map source codes"). Besides, we applied some functions in [Jeff Calder's graph learning package](https://github.com/jwcalder/GraphLearning "Graph Learning Package").
 
 Our experiment are based on the [RiverPIXELS dataset](https://data.ess-dive.lbl.gov/view/doi:10.15485/1865732 "RiverPIXELS") created by Jon Schwenk in Los Alamos National Laboratory (LANL). 
+
+## Dataset Source
+In order to reimplement our algorithm, you should process the raw image dataset into some specific format. The processed data can be downloaded from [my google drive (SurfwaterGAP)](https://drive.google.com/drive/folders/17wxkCVneJrozsX-q-9XmyhF09LCfvaNO?usp=sharing "SurfwaterGAP")

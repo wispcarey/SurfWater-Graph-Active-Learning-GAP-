@@ -30,6 +30,12 @@ If you want to use your own dataset, you should use `data_process.py` to process
 
 ## Quick start
 **Notice:** You should download all files from the data folder to run quick start options.
+
+Get the output result of different methods. Here you can choose the method as the support vector machine (SVM), the random forest (RF), the retrained DeepWaterMap (DWM) and our graph active learning pipeline (GL). As an example, if you want to test the results of SVM:
 ```python
 python methods.py --method SVM 
+```
+In addition, if you want to have a look at the results of the original DeepWaterMap:
+```python
+python methods.py --method DWM --apply_label_change True 
 ```

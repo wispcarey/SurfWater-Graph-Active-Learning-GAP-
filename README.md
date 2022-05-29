@@ -27,3 +27,9 @@ In order to reimplement our algorithm, you should process the raw image dataset 
 | output_figures | Output figures of different methods  | 
 
 If you want to use your own dataset, you should use `data_process.py` to process your raw data into the required format. In addition, you can use the function *train_test_split* in `utils.py`. You can use functions *our_dwm_results* and *original_dwm_outputs* in `DeepWaterMap_ours.py` to get the outputs of DeepWaterMap about your dataset. 
+
+## Quick start
+**Notice:** You should download all files from the data folder to run quick start options.
+```python
+python methods.py --method SVM 
+```

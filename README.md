@@ -12,6 +12,6 @@ In order to reimplement our algorithm, you should process the raw image dataset 
 | Labeled_patches 3-6-22  | Original image dataset (RiverPIXELS)| 
 | data          | Processed data with required format| 
 | DWM_original_output     | Output labeled images from the original DeepWaterMap  |  
-| output_figures | Output figures of different       | 
+| output_figures | Output figures of different methods  | 
 
-If you want to use your own dataset, you should use `data_process.py` to process your raw data into the required format.
+If you want to use your own dataset, you should use `data_process.py` to process your raw data into the required format. You can use functions *our_dwm_results* and *original_dwm_outputs* in `DeepWaterMap_ours.py`

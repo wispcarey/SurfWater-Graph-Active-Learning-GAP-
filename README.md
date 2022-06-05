@@ -45,6 +45,6 @@ If you want to have a quick test on your own dataset, you should put your `tif` 
 ```python
 python quick_start.py --image_path input_images --output_path output_images
 ```
-Your tif images must be the size $256*256*6$. The 6 channels of the image should sequentially be Blue, Green, Red, Near IR, Shortwave IR 1, Shortwave
+Your tif images must be the size $256\times256\times6$. The 6 channels of the image should sequentially be Blue, Green, Red, Near IR, Shortwave IR 1, Shortwave
 IR 2.
 

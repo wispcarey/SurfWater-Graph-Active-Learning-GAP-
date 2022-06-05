@@ -14,6 +14,7 @@ Our experiment are based on the [RiverPIXELS dataset](https://data.ess-dive.lbl.
 | `DeepWaterMap_ours.py` | Output results of both our retrained DWM and the original DWM | 
 | `utils.py`  | Useful functions, including non-local means feature extraction and results output functions |  
 | `methods.py`  | Implement different methods, including SVM, RF, DWM and our GAP|  
+| `quick_start.py`  | Quick start with your own images|  
 
 We write the original DeepWaterMap codes into *PyTorch* in order to retrain it on our own dataset.
 
@@ -28,10 +29,10 @@ In order to reimplement our algorithm, you should process the raw image dataset 
 
 If you want to use your own dataset, you should use `data_process.py` to process your raw data into the required format. In addition, you can use the function *train_test_split* in `utils.py`. You can use functions *our_dwm_results* and *original_dwm_outputs* in `DeepWaterMap_ours.py` to get the outputs of DeepWaterMap about your dataset. For accuracy analysis, in `methods.py`, you should use the function *dataset_preparation* to prepare the required data formation and the function *result_output* to get the output accuracies.
 
-## Quick start
-**Notice:** You should download all files from the data folder to run quick start options.
+## Reimplement our results & Quick Start with your own images
+**Notice:** You should download all files from the data folder to commends in this part.
 
-Get the output result of different methods. Here you can choose the method as the support vector machine (SVM), the random forest (RF), the retrained DeepWaterMap (DWM) and our graph active learning pipeline (GL). As an example, if you want to test the results of SVM:
+You can use `methods.py` to reimplement our output result of different methods. Here you can choose the method as the support vector machine (SVM), the random forest (RF), the retrained DeepWaterMap (DWM) and our graph active learning pipeline (GL). As an example, if you want to reimplement the results of SVM:
 ```python
 python methods.py --method SVM 
 ```
@@ -39,4 +40,11 @@ In addition, if you want to have a look at the results of the original DeepWater
 ```python
 python methods.py --method DWM --apply_label_change True 
 ```
+
+If you want to have a quick test on your own dataset, you should put your `tif` images in a folder (eg. input_images) and run the following commend
+```python
+python quick_start.py --image_path input_images --output_path output_images
+```
+Your tif images must be the size 256*256*6. The 6 channels of the image should sequentially be Blue, Green, Red, Near IR, Shortwave IR 1, Shortwave
+IR 2.
 

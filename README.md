@@ -13,6 +13,7 @@ Our experiment are based on the [RiverPIXELS dataset](https://data.ess-dive.lbl.
 | `trainer.py`  | Functions to retrain DeepWaterMap  |  
 | `DeepWaterMap_ours.py` | Output results of both our retrained DWM and the original DWM | 
 | `utils.py`  | Useful functions, including non-local means feature extraction and results output functions |  
+| `utils_new.py`  | Some updated utils function, including the accuracy based active learning function | 
 | `methods.py`  | Implement different methods, including SVM, RF, DWM and our GAP|  
 | `quick_start.py`  | Quick start with your own images|  
 
